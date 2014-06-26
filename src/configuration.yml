@@ -1,0 +1,14 @@
+item:
+  toUse: MUSHROOM_SOUP
+  afterUsage: BOWL
+regenerate:
+  health: true
+  food: true
+  amount: 7
+soups:
+  cactus:
+    usage: true
+    count: 2
+  cocoaBeans:
+    usage: true
+    count: 1
