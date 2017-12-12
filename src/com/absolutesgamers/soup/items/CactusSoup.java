@@ -1,6 +1,5 @@
 package com.absolutesgamers.soup.items;
 
-import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.ShapelessRecipe;
@@ -24,7 +23,6 @@ public class CactusSoup {
 			ShapelessRecipe recipe = new ShapelessRecipe(soup);
 			recipe.addIngredient(1, Material.BOWL);
 			recipe.addIngredient(count, Material.CACTUS);
-			Bukkit.getServer().addRecipe(recipe);
 		}
 	}
 }

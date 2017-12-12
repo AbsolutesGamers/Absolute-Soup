@@ -1,4 +1,4 @@
-item:
+﻿item:
   toUse: MUSHROOM_SOUP
   afterUsage: BOWL
 regenerate:
